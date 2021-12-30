@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>League</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo.png">
+        <!--消すなアホ-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+        </script>
+        <!---->
+    </head>
+    <body>
+        <div class="whole">
+            <header class="page-header wrapper">
+                <h1><img src="img/logo.png" alt="logo" class="logo"></h1>
+                <nav>
+                    <ul class="header-nav">
+                        <li class="header-li"><a href="#" class="btn-sticky">Tournament</a></li>
+                        <li class="header-li"><a href="#" class="btn-sticky">Ranking</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="border"></div>
+            <main>
+                <div class="main-contents">
+                    <div class="slider-img wrapper">
+                        <div class="slider">
+                            <img src="sample/スクリーンショット (1).png" width="500" height="300" alt="a">
+                            <img src="sample/スクリーンショット (2).png" width="500" height="300" alt="i">
+                            <img src="sample/スクリーンショット (3).png" width="500" height="300" alt="u">
+                            <img src="sample/スクリーンショット (4).png" width="500" height="300" alt="e">
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="container-list">
+                    <div class="item">dex</div>
+                    <div class="item">none0</div>
+                    <div class="item">none1</div>
+                    <div class="item">none2</div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
